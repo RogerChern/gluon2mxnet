@@ -2,7 +2,7 @@ import mxnet as mx
 import gluoncv
 
 # you may modify it to switch to another model. The name is case-insensitive
-model_name = 'resnet50_v1d_0.86'
+model_name = 'resnet101_v1d'
 # download and load the pre-trained model
 net = gluoncv.model_zoo.get_model(model_name, pretrained=True)
 # hybridize
